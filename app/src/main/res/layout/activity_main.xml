@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20sp"
+        android:textColor="#333333"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Name"
+        android:id="@+id/username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/password"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/login"
+        android:text="Let Go"
+        android:layout_margin="40dp"
+        android:layout_width="160dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
